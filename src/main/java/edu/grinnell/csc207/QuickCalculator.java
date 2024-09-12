@@ -4,7 +4,7 @@ package edu.grinnell.csc207;
  * Hello world!
  *
  */
-public class App 
+public class QuickCalculator 
 {
     public static void main( String[] args )
     {
