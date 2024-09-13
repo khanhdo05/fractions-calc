@@ -229,7 +229,7 @@ public class BigFraction {
    * Divide this fraction by another fraction.
    *
    * @param frac
-   * @return
+   * @return the result of the division
    */
   public BigFraction divide(BigFraction frac) {
     BigInteger resultNumerator;
