@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="9.3">
-<file name="/home/khoai/dev/csc207/mini-projects/fractions-calc/src/main/java/edu/grinnell/csc207/util/BFCalculator.java">
-</file>
-<file name="/home/khoai/dev/csc207/mini-projects/fractions-calc/src/main/java/edu/grinnell/csc207/util/BigFraction.java">
+<file name="/home/khoai/dev/csc207/mini-projects/fractions-calc/src/main/java/edu/grinnell/csc207/util/BFRegisterSet.java">
 </file>
 </checkstyle>

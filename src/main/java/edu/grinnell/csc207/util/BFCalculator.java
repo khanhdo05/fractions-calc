@@ -26,6 +26,15 @@ public class BFCalculator {
     this.lastCalculatedValue = new BigFraction(0, 1);
   } // BFCalculator()
 
+  /**
+   * Default constructor. Setting lastCalculatedValue to val.
+   *
+   * @param val
+   */
+  public BFCalculator(BigFraction val) {
+    this.lastCalculatedValue = val;
+  } // BFCalculator(BigFraction)
+
   // +------------------+--------------------------------------------
   // | Accessor Methods |
   // +------------------+
@@ -39,9 +48,9 @@ public class BFCalculator {
     return this.lastCalculatedValue;
   } // get()
 
-  // +------------------+--------------------------------------------
-  // | Accessor Methods |
-  // +------------------+
+  // +---------+------------------------------------------------------
+  // | Methods |
+  // +---------+
 
   /**
    * Adds val to the last computed value.
