@@ -4,9 +4,8 @@
   "java.project.referencedLibraries": ["lib/**/*.jar"],
   "java.configuration.updateBuildConfiguration": "interactive",
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[java]": {
-    "editor.defaultFormatter": "redhat.java"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "files.insertFinalNewline": true
 }

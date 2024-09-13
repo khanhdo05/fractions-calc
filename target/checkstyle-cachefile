@@ -1,0 +1,8 @@
+#Thu Sep 12 17:01:07 CDT 2024
+configuration*?=11E418BDA4601228A4F579228F92E870A64A074A
+module-resource*?\:checkstyle-xpath-suppressions.xml=9D7830C9FF687129D3B60CB5CD9C0E98478840F4
+module-resource*?\:checkstyle-suppressions.xml=B2C814096C5F1E6A90B94F910E3A4982B193F5EB
+/home/khoai/dev/csc207/mini-projects/fractions-calc/src/main/java/edu/grinnell/csc207/main/InteractiveCalculator.java=1726178052662
+/home/khoai/dev/csc207/mini-projects/fractions-calc/src/main/java/edu/grinnell/csc207/util/BFRegisterSet.java=1726178200339
+/home/khoai/dev/csc207/mini-projects/fractions-calc/src/main/java/edu/grinnell/csc207/util/BFCalculator.java=1726178207773
+/home/khoai/dev/csc207/mini-projects/fractions-calc/src/main/java/edu/grinnell/csc207/util/BigFraction.java=1726178202303
