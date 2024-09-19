@@ -15,4 +15,4 @@ public class QuickCalculator {
     PrintWriter pen = new PrintWriter(System.out, true);
     pen.println("Hello, World!");
   } // main(String[] args)
-} // QuickCalculator
+} // class QuickCalculator

@@ -67,4 +67,4 @@ public class BFRegisterSet {
   private int getRegisterIndex(char register) {
     return register - 'a';
   } // getRegisterIndex(char)
-} // BFRegisterSet
+} // class BFRegisterSet

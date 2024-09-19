@@ -66,8 +66,8 @@ public class BFCalculator {
    *
    * @param val
    */
-  public void substract(BigFraction val) {
-    this.lastCalculatedValue = this.lastCalculatedValue.substract(val);
+  public void subtract(BigFraction val) {
+    this.lastCalculatedValue = this.lastCalculatedValue.subtract(val);
   } // substract(BigFraction)
 
   /**
@@ -94,4 +94,4 @@ public class BFCalculator {
   public void clear() {
     this.lastCalculatedValue = new BigFraction(0, 1);
   } // clear()
-} // BFCalculator
+} // class BFCalculator

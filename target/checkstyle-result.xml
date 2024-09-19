@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="9.3">
+<file name="/home/khoai/dev/csc207/mini-projects/fractions-calc/src/main/java/edu/grinnell/csc207/util/BFCalculator.java">
+</file>
 <file name="/home/khoai/dev/csc207/mini-projects/fractions-calc/src/main/java/edu/grinnell/csc207/util/BFRegisterSet.java">
+</file>
+<file name="/home/khoai/dev/csc207/mini-projects/fractions-calc/src/main/java/edu/grinnell/csc207/util/BigFraction.java">
+</file>
+<file name="/home/khoai/dev/csc207/mini-projects/fractions-calc/src/main/java/edu/grinnell/csc207/main/QuickCalculator.java">
+</file>
+<file name="/home/khoai/dev/csc207/mini-projects/fractions-calc/src/main/java/edu/grinnell/csc207/main/InteractiveCalculator.java">
+<error line="20" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="21" severity="error" message="Line matches the illegal pattern &apos;end brace without comment&apos;." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
 </file>
 </checkstyle>

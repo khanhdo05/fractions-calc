@@ -71,8 +71,21 @@ public class BigFraction {
    */
   public BigFraction(String fraction) {
     String[] splitStr = fraction.split("/");
-    this.num = new BigInteger(splitStr[0]);
-    this.denom = new BigInteger(splitStr[1]);
+
+    // In case of a whole number
+    switch (splitStr.length) {
+      case 1:
+        this.num = new BigInteger(splitStr[0]);
+        this.denom = BigInteger.ONE;
+        break;
+      case 2:
+        this.num = new BigInteger(splitStr[0]);
+        this.denom = new BigInteger(splitStr[1]);
+        break;
+      default:
+        throw new IllegalArgumentException("Invalid fraction format");
+    } // switch
+
     simplifyAndEnsurePositive();
   } // BigFraction(String)
 
@@ -85,7 +98,7 @@ public class BigFraction {
    *
    * @return numerator
    */
-  public BigInteger getNumerator() {
+  public BigInteger numerator() {
     return this.num;
   } // getNumerator()
 
@@ -94,7 +107,7 @@ public class BigFraction {
    *
    * @return denominator
    */
-  public BigInteger getDenominator() {
+  public BigInteger denominator() {
     return this.denom;
   } // getDenominator()
 
@@ -124,6 +137,11 @@ public class BigFraction {
     if (this.num.equals(BigInteger.ZERO)) {
       return "0";
     } // if it's zero
+
+    // Simplify to whole number
+    if (this.denom.equals(BigInteger.ONE)) {
+      return this.num.toString();
+    } // if
 
     // Lump together the string represention of the numerator,
     // a slash, and the string representation of the denominator
@@ -212,7 +230,7 @@ public class BigFraction {
    * @param frac
    * @return the result of the subtraction
    */
-  public BigFraction substract(BigFraction frac) {
+  public BigFraction subtract(BigFraction frac) {
     BigInteger resultNumerator;
     BigInteger resultDenominator;
 
@@ -257,4 +275,4 @@ public class BigFraction {
     result.simplifyAndEnsurePositive();
     return result;
   } // createAndSimplify(BigInteger, BigInteger)
-} // BigFraction
+} // class BigFraction
