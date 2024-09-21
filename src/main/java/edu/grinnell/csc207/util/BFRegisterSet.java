@@ -55,7 +55,13 @@ public class BFRegisterSet {
    * @param val
    */
   public void store(char register, BigFraction val) {
-    this.registers[getRegisterIndex(register)] = val;
+    java.io.PrintWriter pen = new java.io.PrintWriter(System.out, true);
+    if (Character.isAlphabetic(register) && Character.isLowerCase(register)) {
+      this.registers[getRegisterIndex(register)] = val;
+      pen.println("STORED");
+      return;
+    } // if
+    System.err.println("Error: Register must be a lowercase alphabetical letter.");
   } // store(char, BigFraction)
 
   /**

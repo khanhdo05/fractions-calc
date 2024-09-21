@@ -53,6 +53,15 @@ public class BFCalculator {
   // +---------+
 
   /**
+   * Set the last computed value to val.
+   *
+   * @param val the value to set
+   */
+  public void set(BigFraction val) {
+    this.lastCalculatedValue = val;
+  } // set(BigFraction)
+
+  /**
    * Adds val to the last computed value.
    *
    * @param val

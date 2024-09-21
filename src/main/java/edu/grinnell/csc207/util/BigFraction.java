@@ -83,7 +83,7 @@ public class BigFraction {
         this.denom = new BigInteger(splitStr[1]);
         break;
       default:
-        throw new IllegalArgumentException("Invalid fraction format");
+        System.err.println("Error: Invalid fraction.");
     } // switch
 
     simplifyAndEnsurePositive();
@@ -275,4 +275,18 @@ public class BigFraction {
     result.simplifyAndEnsurePositive();
     return result;
   } // createAndSimplify(BigInteger, BigInteger)
+
+  /**
+   * Format the output of the fraction.
+   *
+   * @param result The fraction to format.
+   * @return the formatted output.
+   */
+  public static String formatOutput(BigFraction result) {
+    if (result.denominator() == BigInteger.ONE) {
+      return String.valueOf(result.numerator());
+    } else {
+      return result.toString();
+    } // if/else
+  } // formatOutput(BigFraction)
 } // class BigFraction
