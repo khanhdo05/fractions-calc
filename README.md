@@ -20,14 +20,6 @@ This project implements a calculator (or perhaps many calculators) that (a) uses
 
 [https://github.com/khanhdo05/fractions-calc](https://github.com/khanhdo05/fractions-calc)
 
-## Files
-
-- `edu.grinnell.csc207.util.BigFraction.java`: Contains utility methods for ...
-- `edu.grinnell.csc207.util.BFCalculator.java`: ...
-- `edu.grinnell.csc207.util.BFRegisterSet.java`: ...
-- `edu.grinnell.csc207.main.InteractiveCalculator.java`: ...
-- `edu.grinnell.csc207.main.QuickCalculator.java`: ...
-
 ## Running the Program
 
 ### Prerequisites
@@ -64,6 +56,21 @@ mvn test -q
 mvn checkstyle:check -q
 ```
 
+### Setting alias
+
+```bash
+alias qc='java -cp target/classes edu.grinnell.csc207.main.QuickCalculator'
+alias ic='java -cp target/classes edu.grinnell.csc207.main.InteractiveCalculator'
+```
+
 ### Run the InteractiveCalculator program
 
+```bash
+ic
+```
+
 ### Run the QuickCalculator program
+
+```bash
+qc 1/2 + 3/2
+```
