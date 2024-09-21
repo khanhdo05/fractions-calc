@@ -43,6 +43,11 @@ Before running the code, make sure you have the following installed:
 
 4. **Build Tools**
    - Maven will handle project dependencies and building. Ensure Maven is configured correctly as described above.
+  
+5. **Compile**
+   ```bash
+   mvn compile -q
+   ```
 
 ### To run test
 
