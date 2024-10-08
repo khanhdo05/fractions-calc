@@ -8,6 +8,8 @@ import edu.grinnell.csc207.util.BaseCalculator;
 /**
  * InteractiveCalculator takes user input expressions or commands, evaluates them, and prints the
  * results.
+ *
+ * @author Khanh Do
  */
 public class InteractiveCalculator {
 

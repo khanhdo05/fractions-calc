@@ -6,6 +6,8 @@ import edu.grinnell.csc207.util.BaseCalculator;
 
 /**
  * QuickCalculator provides a simple calculator that supports the following operations.
+ *
+ * @author Khanh Do
  */
 public class QuickCalculator {
   /**

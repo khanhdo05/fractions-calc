@@ -8,6 +8,8 @@ import java.math.BigInteger;
  *
  * Acknowledgements: BigFraction was inspired by the BigFraction class in the Designing your own
  * class lab. Some code was taken like method add, doubleValue, multiply, toString, fractional
+ *
+ * @author Khanh Do
  */
 public class BigFraction {
   // +------------------+---------------------------------------------

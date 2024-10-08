@@ -3,6 +3,8 @@ package edu.grinnell.csc207.util;
 /**
  * BFRegisterSet provides a set of registers for the BFCalculator. A set of registers corresponding
  * to the letters ‘a’ through ‘z’.
+ *
+ * @author Khanh Do
  */
 public class BFRegisterSet {
   // +-----------+-------------------------------------------------

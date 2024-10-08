@@ -5,6 +5,8 @@ import java.util.List;
 
 /**
  * BaseCalculator will provides the basic parsing and evaluating operations.
+ *
+ * @author Khanh Do
  */
 public class BaseCalculator {
   // +--------+-------------------------------------------------------

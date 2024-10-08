@@ -6,6 +6,8 @@ package edu.grinnell.csc207.util;
  *
  * get(), add(BigFraction), subtract(BigFraction), multiply(BigFraction) divide(BigFraction),
  * clear()
+ *
+ * @author Khanh Do
  */
 public class BFCalculator {
   // +--------+-------------------------------------------------------
